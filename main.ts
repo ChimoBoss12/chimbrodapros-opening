@@ -168,6 +168,7 @@ timer.after(8000, function () {
     color.FadeToBlack.startScreenEffect(2000)
     pause(2000)
     sprites.destroy(mySprite)
+color.startFade(color.originalPalette, color.originalPalette)
 })
     }
 }
